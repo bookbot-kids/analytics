@@ -65,6 +65,10 @@ class Analytics {
     }
   }
 
+  void clear() {
+    outputs.clear();
+  }
+
   /// Loop through all outputs to send analytics events
   /// Using `eventMapper` to send for special output target
   ///
