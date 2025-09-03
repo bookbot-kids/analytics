@@ -5,8 +5,7 @@ publish_to: none
 homepage:
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=1.17.0 <2.0.0"
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
@@ -14,13 +13,12 @@ dependencies:
 
   shared_preferences: ^2.2.2
   uuid: ^4.1.0
-  firebase_core: ^2.24.2
-  firebase_analytics: ^10.8.0
+  firebase_core: ^4.0.0
+  firebase_analytics: ^12.0.0
 
   robust_http:
     git:
-      url: https://github.com/bookbot-kids/robust_http.git
-      ref: support_web
+      url: https://github.com/hiennguyen1001/robust_http.git
   collection: ^1.15.0-nullsafety.4
 
 dependency_overrides:
